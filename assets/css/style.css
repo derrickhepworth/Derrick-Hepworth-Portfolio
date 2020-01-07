@@ -236,3 +236,16 @@ input[type=submit] {
     padding: 10px 30px;
     cursor: pointer;
 }
+
+@media screen and (maxiwidth: 980px) { 
+    .sidebar{ visibility: hidden;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 640px) {
+
+}
