@@ -240,10 +240,22 @@ input[type=submit] {
 @media screen and (maxiwidth: 980px) { 
     .sidebar{ visibility: hidden;
     }
+    #nav{
+        padding-right: 10px;
+    }
 
 }
 
 @media screen and (max-width: 768px) {
+    #logo{
+        margin-left: 10px ;
+    }
+    #main-container{
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: none;
+        width: 100%;
+    }
 
 }
 @media screen and (max-width: 640px) {
