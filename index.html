@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me</title>
+    <title>Derrick Hepworth</title>
     <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 
@@ -16,35 +16,114 @@
         <div class="container">
             <a href="index.html" id="logo"> Derrick Hepworth</a>
             <nav id="nav">
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
+                <a href="#about_me">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
             </nav>
         </div>
     </header>
+    <section></section>
     <div id="main-container" class="container">
-        <section class="main-section">
+        <section class="main-section" id="about_me">
             <h1>About Me</h1>
 
             <img src="assets/images/headshot.png" class="auth-image1" alt="Profile Pic">
 
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore vel magnam facere. Nulla perferendis
-                ut impedit ullam quasi laudantium temporibus suscipit consequuntur aperiam numquam quibusdam delectus
-                iure necessitatibus, obcaecati tenetur unde, distinctio facilis alias eveniet porro quos! Accusantium,
-                voluptate provident.</p>
+            <p>Learning to make cool things through code while surviving pandemics, earthquakes, and fires (Yeah,
+                literally. My home burnt down during the middle of my bootcamp course. You can read about it and
+                other, more useful, parts of my coding journey on my personal <a
+                    href="https://derrickhepworth.github.io/blog/">coding blog</a>).</p>
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est neque delectus porro? Accusamus
-                consequuntur alias voluptatibus veniam, velit impedit numquam ipsa obcaecati minus fuga tempore quis
-                asperiores reiciendis soluta dolore repudiandae officiis odio animi iste ad. Voluptatibus eaque eius
-                consectetur?</p>
+            <p>Aspiring Full Stack Developer | Husband | Programmer | Designer | Dog Dad | Snowboarder | Nerd | Board
+                Gamer | Purveyor of the overly used one word divided by "|" overlyused profile statements </p>
         </section>
+
         <section class="sidebar">
             <div id="connect">
                 <h2>Connect with Me</h2>
-                <img src="assets/images/iconfinder__github_2006660.png" alt="Github" class="social">
-                <img src="assets/images/iconfinder_square-linkedin_317725.png" alt="LinkedIn" class="social">
-                <img src="assets/images/iconfinder_stackoverflow_1220346.png" alt="Stack Overflow" class="social">
+                <a href="https://github.com/derrickhepworth">
+                    <img src="assets/images/iconfinder__github_2006660.png" alt="Github" class="social">
+                </a>
+                <a href="https://www.linkedin.com/in/derrick-hepworth-60581265/">
+                    <img src="assets/images/iconfinder_square-linkedin_317725.png" alt="LinkedIn" class="social">
+                </a>
+                <a href="https://dashboard.heroku.com/account">
+                    <img src="./assets/images/icons8-heroku-64.png" alt="Heroku" class="social">
+                </a>
+
+                <!-- <img src="assets/images/iconfinder_stackoverflow_1220346.png" alt="Stack Overflow" class="social"> -->
             </div>
+        </section>
+
+        <section id="portfolio" class="main-section">
+            <h1>Portfolio</h1>
+
+            <div class="work" id="bigger-project">
+                <a href="https://derrickhepworth.github.io/blog/">
+                    <img src="./assets/images/Screen Shot 2020-05-09 at 2.46.47 PM.png" class="auth-image"
+                        alt="{blog; coding}">
+                    <h3>Derrick {blog: coding};</h3>
+                </a>
+
+            </div>
+            <br>
+            <div class="work">
+                <a href="https://darkthistle982.github.io/recipe_box_app/">
+                    <img src="./assets/images/Screen Shot 2020-05-09 at 12.23.14 PM.png" class="auth-image"
+                        alt="The Salty Beard">
+                    <h3>The Salty Beard</h3>
+                </a>
+            </div>
+
+            <div class="work">
+                <a href="https://dry-journey-46038.herokuapp.com/">
+                    <img src="./assets/images/Screen Shot 2020-05-09 at 12.36.30 PM.png" class="auth-image"
+                        alt="Project 1">
+                    <h3>Bootcamp Attack</h3>
+                </a>
+
+            </div>
+
+
+        </section>
+        <section class="main-section" id="contact">
+            <h1>Contact</h1>
+          
+
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="" id="name" placeholder="John Smith" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message"
+                        required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit" name="submit">
+            </form>
+            <br>
+            <div id="connect">
+                
+                <a href="https://github.com/derrickhepworth">
+                    <img src="assets/images/iconfinder__github_2006660.png" alt="Github" class="social">
+                </a>
+                <a href="https://www.linkedin.com/in/derrick-hepworth-60581265/">
+                    <img src="assets/images/iconfinder_square-linkedin_317725.png" alt="LinkedIn" class="social">
+                </a>
+                <a href="https://dashboard.heroku.com/account">
+                    <img src="./assets/images/icons8-heroku-64.png" alt="Heroku" class="social">
+                </a>
+
+                <!-- <img src="assets/images/iconfinder_stackoverflow_1220346.png" alt="Stack Overflow" class="social"> -->
+            </div>
+
         </section>
     </div>
     <footer>
